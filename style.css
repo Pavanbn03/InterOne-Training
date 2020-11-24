@@ -240,7 +240,7 @@ body {
     transform: translate(-6%, -50%);
   }
   .item:nth-child(1) .content {
-    transform: translate(-12%, -50%);
+    transform: translate(-25%, -50%);
   }
 
   .item:nth-child(odd) .content ul::before {
