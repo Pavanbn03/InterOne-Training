@@ -237,10 +237,10 @@ body {
   }
 
   .item:nth-child(odd) .content {
-    transform: translate(-10%, -50%);
+    transform: translate(-6%, -50%);
   }
   .item:nth-child(1) .content {
-    transform: translate(-28%, -50%);
+    transform: translate(-12%, -50%);
   }
 
   .item:nth-child(odd) .content ul::before {
