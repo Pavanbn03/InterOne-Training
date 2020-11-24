@@ -11,6 +11,11 @@ html {
 body {
   font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
+  text-transform: capitalize;
+}
+hr {
+  background: -webkit-linear-gradient(90deg, #1fd1f9, #b621fe);
+  height: 2px;
 }
 .icon {
   position: relative;
@@ -123,6 +128,10 @@ body {
   padding-bottom: 10em;
   z-index: -1;
   background: url(./undraw_developer_activity_bv83.svg) no-repeat center;
+}
+.btn-grid p {
+  font-size: 0.8em;
+  color: #000;
 }
 .custom-btn {
   width: 10em;
@@ -239,7 +248,6 @@ body {
   .item:nth-child(odd) .content {
     transform: translate(-6%, -50%);
   }
-  
 
   .item:nth-child(odd) .content ul::before {
     content: "";
