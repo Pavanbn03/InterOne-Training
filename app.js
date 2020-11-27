@@ -32,6 +32,13 @@ const content16 = document.querySelector(".content-16");
 const btn16 = document.querySelector(".day-16");
 const content17 = document.querySelector(".content-17");
 const btn17 = document.querySelector(".day-17");
+const content18 = document.querySelector(".content-18");
+const btn18 = document.querySelector(".day-18");
+const content19 = document.querySelector(".content-19");
+const btn19 = document.querySelector(".day-19");
+const content20 = document.querySelector(".content-20");
+const btn20 = document.querySelector(".day-20");
+
 
 btn1.addEventListener("click", () => {
   content1.classList.toggle("revelContent");
@@ -83,4 +90,13 @@ btn16.addEventListener("click", () => {
 });
 btn17.addEventListener("click", () => {
   content17.classList.toggle("revelContent");
+});
+btn18.addEventListener("click", () => {
+  content18.classList.toggle("revelContent");
+});
+btn19.addEventListener("click", () => {
+  content19.classList.toggle("revelContent");
+});
+btn20.addEventListener("click", () => {
+  content20.classList.toggle("revelContent");
 });
