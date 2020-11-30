@@ -38,6 +38,8 @@ const content19 = document.querySelector(".content-19");
 const btn19 = document.querySelector(".day-19");
 const content20 = document.querySelector(".content-20");
 const btn20 = document.querySelector(".day-20");
+const content21 = document.querySelector(".content-21");
+const btn21 = document.querySelector(".day-21");
 
 
 btn1.addEventListener("click", () => {
@@ -99,4 +101,7 @@ btn19.addEventListener("click", () => {
 });
 btn20.addEventListener("click", () => {
   content20.classList.toggle("revelContent");
+});
+btn21.addEventListener("click", () => {
+  content21.classList.toggle("revelContent");
 });

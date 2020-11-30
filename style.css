@@ -225,7 +225,6 @@ hr {
 }
 
 @media only screen and (max-width: 768px) {
-  
   .hero-bg .title p {
     font-size: 1.5em;
   }
