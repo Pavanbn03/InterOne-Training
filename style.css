@@ -142,6 +142,11 @@ hr {
   padding-bottom: 10em;
   z-index: -1;
   background: url(./undraw_developer_activity_bv83.svg) no-repeat center;
+  background-size: 80%;
+}
+.grid2{
+  background: url(./undraw_programming_2svr.svg) no-repeat center;
+  padding-bottom: 500px;
 }
 .btn-grid p {
   font-size: 0.8em;
