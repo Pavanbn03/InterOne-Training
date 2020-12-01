@@ -17,10 +17,10 @@ hr {
   background: -webkit-linear-gradient(90deg, #1fd1f9, #b621fe);
   height: 2px;
 }
-.heading-box{
+.heading-box {
   position: relative;
 }
-.heading{
+.heading {
   background-image: -webkit-linear-gradient(90deg, #1fd1f9, #b621fe);
   -webkit-background-clip: text;
   background-clip: text;
@@ -28,7 +28,7 @@ hr {
   top: 50%;
   left: 50%;
   position: absolute;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   font-size: 20px;
 }
 .icon {
@@ -144,10 +144,7 @@ hr {
   background: url(./undraw_developer_activity_bv83.svg) no-repeat center;
   background-size: 80%;
 }
-.grid2{
-  background: url(./undraw_programming_2svr.svg) no-repeat center;
-  padding-bottom: 500px;
-}
+
 .btn-grid p {
   font-size: 0.8em;
   color: #000;
@@ -308,7 +305,7 @@ hr {
   .icon {
     margin: 0 0px 0 30px;
   }
-  .heading{
-    font-size: 12px;
+  .heading {
+    font-size: 10px;
   }
 }
