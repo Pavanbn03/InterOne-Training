@@ -17,6 +17,20 @@ hr {
   background: -webkit-linear-gradient(90deg, #1fd1f9, #b621fe);
   height: 2px;
 }
+.heading-box{
+  position: relative;
+}
+.heading{
+  background-image: -webkit-linear-gradient(90deg, #1fd1f9, #b621fe);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  font-size: 20px;
+}
 .icon {
   position: relative;
   width: 100vw;
@@ -288,5 +302,8 @@ hr {
   }
   .icon {
     margin: 0 0px 0 30px;
+  }
+  .heading{
+    font-size: 12px;
   }
 }
